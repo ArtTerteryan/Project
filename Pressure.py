@@ -1,6 +1,5 @@
 import seaborn as sns
 import matplotlib.pyplot as plt
-#fjshfkszdgulk;szdfjizdhu;sgi'aewhgzs;oifsJFHO:I:
 def pressure_and_other(df):
     # Grouping 'Summary' categories with occurrences less than 5000 into an 'Other' category
     summary_counts = df['Summary'].value_counts()
