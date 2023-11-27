@@ -1,6 +1,5 @@
 import seaborn as sns
 import matplotlib.pyplot as plt
-#jgasgaygudags
 def calculate_z_score(df, column):
     mean = df[column].mean()
     std = df[column].std()
